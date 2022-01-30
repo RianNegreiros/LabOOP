@@ -24,4 +24,4 @@ Caso você não conheça muito bem o jogo Pac-Man e quiser aprender mais sobre e
 
 Pense nas principais abstrações que você precisará representar: Tabuleiro, PacMan, Fantasma, tipos específicos de fantasma, pontos, placar, entrada dos movimentos do jogador via teclado ou joystick, etc. Verifique se você está usando herança e agregação apropriadamente e se as associações entre os objetos estão adequadas.
 
-**Observação: Apenas PDFs e imagens serão aceitos!***
+**Observação: Apenas PDFs e imagens serão aceitos!**
