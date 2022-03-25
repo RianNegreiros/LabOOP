@@ -2,7 +2,7 @@ package classes;
 
 import interfaces.IAccount;
 
-public class Account implements IAccount {
+public abstract class Account implements IAccount {
   private int agency;
   private int number;
   private int saldo;
