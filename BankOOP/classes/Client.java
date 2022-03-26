@@ -7,7 +7,7 @@ public class Client {
     return this.agency;
   }
 
-  public void setagency(int agency) {
+  public void setAgency(int agency) {
     this.agency = agency;
   }
 

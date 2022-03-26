@@ -7,5 +7,5 @@ public interface IAccount {
 
   void deposit(double value);
 
-  void transfer(double valor, Account destinationAccount);
+  void transfer(double value, Account destinationAccount);
 }
