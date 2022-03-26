@@ -28,6 +28,6 @@ public abstract class Account implements IAccount {
   }
 
   @Override
-  public void transferir(double valor, Account destinationAccount) {
+  public void transfer(double valor, Account destinationAccount) {
   }
 }
