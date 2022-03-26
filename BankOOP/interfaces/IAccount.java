@@ -3,9 +3,9 @@ package interfaces;
 import classes.Account;
 
 public interface IAccount {
-  void sacar(double value);
+  void withdraw(double value);
 
-  void depositar(double value);
+  void deposit(double value);
 
   void transfer(double valor, Account destinationAccount);
 }

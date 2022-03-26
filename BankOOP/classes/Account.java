@@ -5,7 +5,7 @@ import interfaces.IAccount;
 public abstract class Account implements IAccount {
   protected int agency;
   protected int number;
-  protected int saldo;
+  protected int balance;
 
   public int getAgency() {
     return this.agency;
@@ -15,16 +15,17 @@ public abstract class Account implements IAccount {
     return this.number;
   }
 
-  public int getSaldo() {
-    return this.saldo;
+  public int getBalance() {
+    return this.balance;
   }
 
   @Override
-  public void sacar(double value) {
+  public void withdraw(double value) {
+
   }
 
   @Override
-  public void depositar(double value) {
+  public void deposit(double value) {
   }
 
   @Override
