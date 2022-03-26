@@ -3,9 +3,9 @@ package classes;
 import interfaces.IAccount;
 
 public abstract class Account implements IAccount {
-  private int agency;
-  private int number;
-  private int saldo;
+  protected int agency;
+  protected int number;
+  protected int saldo;
 
   public int getAgency() {
     return this.agency;
